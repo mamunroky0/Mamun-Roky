@@ -1,0 +1,207 @@
+:root {
+    --brand-color: #4D4D4D;
+    --text-color: #18191F;
+    --btn-color: #4CAF4F;
+    --white-color: #FFFFFF;
+    --paragraph-color: #717171;
+}
+/* css reset start */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: #f5f5f5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* css reset end */
+
+/* common css start */
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.btnBg {
+  background-color: var(--btn-color);
+  color: var(--white-color);
+}
+.btnOutline {
+color: var(--btn-color);
+}
+
+/* common css end */
+
+
+/* nav section start */
+nav {
+  padding: 15px 0px;
+  width: 100%;
+  background-color: #F5F7FA;
+}
+
+.navMenu ul {
+  padding: 0px 166px;
+  gap: 50px;
+}
+
+.navLinks {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* nav section end */
+
+/* hero section start */
+
+#herosection {
+  background-color: #F5F7FA;
+  overflow: hidden;
+}
+.herosection {
+  height: 600px;
+  gap: 104px;
+  margin-left: 141px;
+}
+
+.heropart h2 {
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--brand-color);
+}
+
+.herogreen {
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--btn-color)
+}
+
+.heropart p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #717171;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.BtnHero {
+  background-color: var(--btn-color);
+  font-size: 16px;
+  color: var(--white-color);
+  border-radius: 4px;
+  padding: 14px 32px;
+}
+
+.heroimgcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 136px;
+}
+
+/* hero section end */
+
+/* clients section start */
+
+.clients h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--brand-color);
+  text-align: center;
+}
+
+.clients p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--paragraph-color);
+  text-align: center;
+  margin-bottom: 16px;
+}
+.clientLogo {
+  display: flex;
+  gap: 120px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* clients section end */
+
