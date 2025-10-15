@@ -81,17 +81,30 @@ select {
 
 /* common css start */
 .container {
-    max-width: 1440px;
-    margin: auto;
+  max-width: 1440px;
+  margin: auto;
 }
 .flex {
     display: flex;
 }
 
+.paragraphStyle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--paragraph-color);
+}
+
+.headingStyle {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: var(--brand-color);
+}
+
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
   font-style: normal;
 }
 
@@ -120,6 +133,19 @@ nav {
   background-color: #F5F7FA;
 }
 
+.navLogo {
+  width: 12.55%;
+}
+
+.navMenu {
+  width: 50%;
+}
+
+.navBTN {
+  width: 12.5%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 .navMenu ul {
   padding: 0px 166px;
   gap: 50px;
@@ -135,13 +161,13 @@ nav {
 /* hero section start */
 
 #herosection {
-  background-color: #F5F7FA;
+  background-color:#FFFFFF;
   overflow: hidden;
 }
 .herosection {
   height: 600px;
   gap: 104px;
-  margin-left: 141px;
+  margin-left: 50px;
 }
 
 .heropart h2 {
@@ -199,9 +225,84 @@ nav {
 }
 .clientLogo {
   display: flex;
-  gap: 120px;
-  margin-left: 50px;
-  margin-right: 50px;
+  justify-content: space-between;
 }
 /* clients section end */
+
+/* community section start */
+
+.community h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--brand-color);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.community p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--paragraph-color);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.communityWrapper {
+  gap: 144px;
+  justify-content: center;
+  align-items: center;
+}
+
+.communityCard {
+  width: 299px;
+  margin: auto;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgb(255, 255, 255)
+}
+.communityCard h3 {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--brand-color);
+  text-align: center;
+}
+
+.communityCard p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--paragraph-color);
+  text-align: center;
+}
+
+.communityCard img {
+  margin: auto;
+}
+/* community section end */
+
+/* body section start */
+
+.bodyMain {
+  margin-top: 43px;
+  gap: 50px;
+  padding: 82px 144px;
+}
+
+.bodyImg {
+  width: 40%;
+}
+
+.bodyText {
+  width: 60%;
+}
+.bodyText h3 span {
+  display: block;
+}
+
+.bodyText p {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+/* body section end */
+
 
