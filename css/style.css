@@ -162,7 +162,6 @@ nav {
 
 #herosection {
   background-color:#FFFFFF;
-  overflow: hidden;
 }
 .herosection {
   height: 600px;
@@ -304,5 +303,90 @@ nav {
 }
 
 /* body section end */
+
+/* achivment section start */
+
+.achivment h3 span {
+  display: block;
+  color: var(--btn-color);
+}
+
+.achivmentIcon {
+  display: flex;
+  gap: 30px;
+}
+
+/* achivment section end */
+
+/* calender section start */
+
+.celender {
+  margin-top: 43px;
+  gap: 50px;
+  padding: 82px 144px;
+}
+
+.calenderImg {
+  width: 40%;
+}
+
+.calenderText {
+  width: 60%;
+}
+.calenderText h3 span {
+  display: block;
+}
+
+.calenderText p {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+/* calender section end */
+
+/* customer section start */
+
+.customer {
+  gap: 78px;
+}
+.customer .customerpart {
+  width: 50%;
+}
+
+.customerLogo {
+  padding-top: 32px;
+  justify-content: space-between;
+}
+
+.customer h4 {
+  padding-top: 16px;
+  padding-bottom: 8px;
+  color: var(--btn-color);
+}
+
+.customerLogo a {
+  font-size: 20px;
+  color: var(--btn-color);
+  font-weight: 600;
+}
+/* customer section end */
+
+/* community update section start */
+
+.cText {
+  width: 1110px;
+}
+.cText h2 {
+ text-align: center;
+}
+
+.cText p {
+  text-align: center;
+}
+.cUpdateImg {
+  gap: 24px;
+}
+
+/* community update section end */
 
 
